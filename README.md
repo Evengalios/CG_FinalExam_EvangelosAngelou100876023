@@ -26,3 +26,6 @@ I just added a basic rim lighting shader for the player and the ghosts. I wanted
 This shader just adds realtime lighting to a transparent textured material. It uses the main light from URP to calculate Lambertian diffuse lighting, then multiplies that lighting with the sampled texture and the base color tint. This shader was extremely useful for the entrance to PacMan's starting area as the player needs to know that the area can be accessed by pacman alone. The transparent texture indicated that pacman can "phase" through it while still being protected against the ghosts <img width="535" height="636" alt="image" src="https://github.com/user-attachments/assets/bdc0f78f-fe38-4bc9-9215-7bdce589d42d" />
 <img width="405" height="357" alt="image" src="https://github.com/user-attachments/assets/8cc9e197-1cd1-4c6c-915b-1a809eb87c12" />
 
+# Issue with build
+I noticed that there was only one issue with the biild, the transparent game object was pink. I made sure to add the shader in the URP included shaders but no luck. The shader works fine in the project just not in the final build. <img width="1918" height="1075" alt="image" src="https://github.com/user-attachments/assets/1d7132ff-7d9d-4874-ae6a-b119d81e2399" />
+
