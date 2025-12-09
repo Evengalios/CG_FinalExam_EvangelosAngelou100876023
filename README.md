@@ -10,7 +10,7 @@ I used one texture from my assets list
   <img width="2048" height="2048" alt="Brick_Wall_18_Albedo" src="https://github.com/user-attachments/assets/44cbe824-ebe4-430c-b353-07fd3916b1be" />
 
 # Scrolling Texture
-I implemented scrolling textures for the walls and used a brick texture. I thought having the wall textures move would make the scene look more cyber-esque and add a cool addition to the game. The shader samples a main texture (which was the brick texture I used), adds a UV scroll speed, and allows scaling for my texture. The shader tints the sampled texture with a maincolor and I added an emission multiplier to make a brighter effect. <img width="1482" height="511" alt="image" src="https://github.com/user-attachments/assets/412e5968-1dae-4a9d-b46a-1a0693f0bc25" /> <img width="921" height="797" alt="image" src="https://github.com/user-attachments/assets/b93fbec7-67e0-4454-b007-ebbe1d6921f4" />
+I implemented scrolling textures for the walls and used a brick texture. I thought having the wall textures move would make the scene look more cyber-esque and add a cool addition to the game. The shader samples a main texture (which was the brick texture I used), adds a UV scroll speed, and allows scaling for my texture. The shader tints the sampled texture with a maincolor and I added an emission multiplier to make a brighter effect. If i had more time, I might have tried to fix the uv overlapping between textures and maybe have a global texture scale to prevent the stretching. <img width="1482" height="511" alt="image" src="https://github.com/user-attachments/assets/412e5968-1dae-4a9d-b46a-1a0693f0bc25" /> <img width="921" height="797" alt="image" src="https://github.com/user-attachments/assets/b93fbec7-67e0-4454-b007-ebbe1d6921f4" />
 
 
 
