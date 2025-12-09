@@ -1,5 +1,5 @@
 # CG_FinalExam_EvangelosAngelou100876023
-
+## Evangelos Angelou - 100876023
 # Overview
 this is my a screenshot of my pacman build. I was able to make the player move and make the orbs collectible (they destroy onCollision with player) however I was unable to make eneny AI as that would take too long.
 <img width="1227" height="692" alt="image" src="https://github.com/user-attachments/assets/6f7583eb-7ccd-4ebb-b5c2-ac9b89a3728b" />
